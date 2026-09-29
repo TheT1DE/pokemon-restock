@@ -57,7 +57,7 @@ const { withRetry, sleep } = require('../utils/retry');
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
-const PC_BASE          = 'https://www.pokemoncenter.com';
+const PC_BASE          = 'https://www.pokemoncenter.com/en-ca';
 const QUEUEIT_BASE     = 'queue-it.net';
 const HISTORY_FILE     = path.resolve('./data/pc-queue-history.json');
 
